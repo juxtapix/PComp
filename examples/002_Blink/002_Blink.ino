@@ -4,8 +4,7 @@
 void setup() {
   // put your setup code here, to run once:
 
-  // initialize digital pin 13 as an output.
-  pinMode(13, OUTPUT);
+  pinMode(13, OUTPUT);          // initialize digital pin 13 as an output.
 }
 
 void loop() {
