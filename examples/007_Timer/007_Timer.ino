@@ -36,7 +36,7 @@ void loop() {
     
     digitalWrite(ledPin, buttonState);    // Turn LED ON
     lastButtonState = buttonState;        // Update Button State
-    delay(6000);                          // wait for 3 seconds
+    delay(3000);                          // wait for 3 seconds
     buttonState = LOW;                    // Change Button state to OFF (LOW)
     digitalWrite(ledPin, buttonState);    // Turn LED OFF
     lastButtonState = buttonState;         // Update Button State
