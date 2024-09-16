@@ -4,7 +4,7 @@
 int     x = 1;              // integer number
 float   y = 1.342;          // float number
 char    z = 'a';            // character
-String  w = "hello world";  // sequence of characters (words / frases)
+String  w = "hello world";  // sequence of characters (words / phrases)
 
 void setup() {
   // put your setup code here, to run once:
