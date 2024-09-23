@@ -11,6 +11,6 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-  Serial.println( analogRead(A0) );     // print the state of the analog pin.
+  Serial.println( analogRead(A0) );     // print the value of the analog pin.
   delay(100);                           // delay in between reads for stability
 }
