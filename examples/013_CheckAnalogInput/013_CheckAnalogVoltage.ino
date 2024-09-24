@@ -10,6 +10,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+
   int sensorValue = analogRead(A0);
   float voltage = sensorValue * (3.3 / 1024.0);  // convert value to voltage. 
   
@@ -17,3 +18,4 @@ void loop() {
   Serial.print(" | " );
   Serial.println( voltage );            // print the voltage of the analog pin.
   delay(100);                           // delay in between reads for stability
+}
