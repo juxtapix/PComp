@@ -1,11 +1,11 @@
-// PComp 2023
+// PComp 2025
 // Digital Input - CheckInput
 
 void setup() {
   // put your setup code here, to run once:
 
   Serial.begin(9600);           // initialize serial (console) at 9600 bps.
-  pinMode(12, INPUT);          // initialize digital pin 13 as an input.
+  pinMode(12, INPUT);          // initialize digital pin 12 as an input.
 }
 
 void loop() {
